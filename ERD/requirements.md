@@ -1,5 +1,5 @@
 # Airbnb ERD
-
+```
 Table users {
   user_id uuid [primary key]
   first_name varchar [not null]
@@ -87,3 +87,4 @@ Table messages {
     message_body text [not null]
     sent_at timestamp [default: `now()`]
 }
+
