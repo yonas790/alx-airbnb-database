@@ -23,6 +23,7 @@ SELECT
 FROM 
     properties p
 LEFT JOIN 
+    reviews r ON p.property_id = r.property_id;
 
 -- FULL OUTER JOIN: Retrieve all users and bookings 
 -- Note: Not all databases support FULL OUTER JOIN directly
