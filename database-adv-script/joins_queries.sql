@@ -1,3 +1,5 @@
+-- ORDER BY
+
 -- INNER JOIN: Retrieve bookings with user details
 SELECT 
     b.booking_id, 
